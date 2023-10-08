@@ -1,0 +1,30 @@
+.navbar-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  gap: 15px;
+  background-color: #181717;
+  outline: 3px #181717 solid;
+  outline-offset: -3px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 400ms;
+  margin: 10px;
+}
+
+.navbar-button .navbar-text {
+  color: #f3d5b5;
+  font-weight: 700;
+  font-size: 1.2em;
+  transition: 400ms;
+}
+
+.navbar-button:hover {
+  background-color: transparent;
+}
+
+.navbar-button:hover .navbar-text {
+  color: #181717;
+}

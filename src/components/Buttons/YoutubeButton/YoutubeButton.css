@@ -1,0 +1,58 @@
+.button {
+  position: relative;
+  width: 150px;
+  height: 35px;
+  border-radius: 30px;
+  background-color: transparent;
+  border: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.text1 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 22%;
+}
+
+.text2 {
+  position: absolute;
+  top: 25%;
+  left: -50px;
+  font-weight: 700;
+  font-size: 14px;
+  color: white;
+}
+
+.icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.5s;
+}
+
+.icon::before {
+  position: absolute;
+  left: -100px;
+  top: 0;
+  z-index: -1;
+  content: '';
+  width: 183px;
+  height: 33px;
+  border-radius: 30px;
+  background-color: #cd201f;
+}
+
+.button:hover .icon {
+  transform: translateX(66px);
+  transition: transform 0.5s;
+}
+
+.button:active {
+  transform: scale(1.03);
+}
+
+.yt-link {
+  text-decoration: none;
+  color: inherit;
+}

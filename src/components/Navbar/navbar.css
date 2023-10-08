@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 0 20;
+  background-color: #f3d5b5;
+}
+
+.logo-image {
+  border-radius: 50%;
+}
+
+.logo {
+  width: 85px;
+  height: 85px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.other-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
