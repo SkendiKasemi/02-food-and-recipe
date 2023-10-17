@@ -59,10 +59,9 @@ export const FoodItemProvider = ({ children }) => {
 
     handleAddFavorites(addedItem);
   };
-
   const handleDelete = (id) => {
     setIsFavorite((isFavorite) => {
-      isFavorite.filter((item) => item.idMeal !== id);
+      return isFavorite.filter((item) => item.idMeal !== id);
     });
   };
 
